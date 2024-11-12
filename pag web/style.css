@@ -1,0 +1,69 @@
+/* Estilos para la nueva sección */
+#elegir-hosting {
+    background-color: #e7f4ff;
+    border-left: 5px solid #4a90e2;
+    margin-bottom: 20px;
+}
+
+#elegir-hosting .section-title {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    font-size: 1.6em;
+}
+
+#elegir-hosting h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.tips {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.tip {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.tip:hover {
+    transform: scale(1.05);
+}
+
+.tip h3 {
+    color: #4a90e2;
+    font-size: 1.2em;
+}
+
+.tip p {
+    color: #555;
+    font-size: 1em;
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .tips {
+        flex-direction: column;
+    }
+
+    .tip {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+
